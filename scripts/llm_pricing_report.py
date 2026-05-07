@@ -134,10 +134,11 @@ def stepped_line(df, fields, end_date, height=420, include_plotlyjs=False):
 
 
 SOURCE_TAG = {  # short superscript markers for source provenance
-    "litellm-git": "L",
-    "openrouter":  "OR",
-    "datalearner": "DL",
-    "manual_seed": "M",
+    "litellm-git":  "L",
+    "openrouter":   "OR",
+    "datalearner":  "DL",
+    "tencent-docs": "T",
+    "manual_seed":  "M",
 }
 
 
@@ -477,9 +478,9 @@ def main():
         <td>litellm 社区维护(调价后约 1-7 天同步)</td>
         <td><b style="color:var(--down)">是</b> · 每次跑都从 GitHub 拉新 commits</td></tr>
     <tr><td>腾讯混元</td>
-        <td><a href="https://cloud.tencent.com/document/product/1729/97731" target="_blank">腾讯云文档</a> + ¥7.20/USD 折算</td>
-        <td>手工录入 <code>seed_manual.csv</code></td>
-        <td><b style="color:var(--up)">否</b> · 需手工更新</td></tr>
+        <td><a href="https://cloud.tencent.com/document/product/1729/97731" target="_blank">腾讯云文档</a> 自动抓取 + ¥7.20/USD 折算</td>
+        <td><code>fetch_hunyuan.py</code> (每日 04:30)</td>
+        <td><b style="color:var(--down)">是</b> · 自动追踪 6 个旗舰</td></tr>
     <tr><td>视频生成模型</td>
         <td><a href="https://fal.ai" target="_blank">fal.ai</a> 公开定价页</td>
         <td>手工录入 <code>seed_media.csv</code></td>

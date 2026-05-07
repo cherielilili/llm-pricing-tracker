@@ -10,6 +10,7 @@ LOG_DATE=$(date +%Y-%m-%d)
 echo "[$(date)] LLM Pricing daily run starting…"
 
 python3 scripts/llm_pricing_fetch.py
+python3 scripts/fetch_hunyuan.py
 
 # regenerate HTML for today (idempotent if rerun)
 python3 scripts/llm_pricing_report.py
