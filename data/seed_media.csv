@@ -1,0 +1,11 @@
+date,model,provider,unit,price_usd,usd_per_10s_norm,note
+2026-05-07,seedance-1.0-pro,bytedance,per_5s_1080p_video,0.62,1.24,"https://fal.ai/models/fal-ai/bytedance/seedance/v1/pro/text-to-video"
+2026-05-07,seedance-1.0-pro,bytedance,per_million_video_tokens,2.50,,"non-1080p tier, video tokens=h*w*FPS*duration/1024"
+2026-05-07,sora-2,openai,per_second,0.10,1.00,"https://fal.ai/models/fal-ai/sora-2"
+2026-05-07,veo-3,google,per_second_audio_off,0.50,5.00,"https://fal.ai/models/fal-ai/veo3"
+2026-05-07,veo-3,google,per_second_audio_on,0.75,7.50,"audio adds $0.25/sec"
+2026-05-07,veo-3-fast,google,per_second_audio_off,0.25,2.50,"https://fal.ai/models/fal-ai/veo3 (fast tier)"
+2026-05-07,veo-3-fast,google,per_second_audio_on,0.40,4.00,
+2026-05-07,kling-2.1-master,kuaishou,per_5s_video,1.40,2.80,"https://fal.ai/models/fal-ai/kling-video/v2.1/master/text-to-video; +$0.28/sec after 5s → 10s = 1.40+5*0.28"
+2026-05-07,kling-2.1-master,kuaishou,per_extra_second,0.28,,"after first 5s"
+2026-05-07,runway-gen4-turbo,runway,per_second,,,"unverified — Replicate page not extractable; check https://replicate.com/runwayml/gen4-turbo"

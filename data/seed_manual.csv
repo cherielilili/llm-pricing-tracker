@@ -1,0 +1,9 @@
+date,model,provider,field,price_usd_per_mtoken,source_commit,note
+2026-05-07,hunyuan-turbos,tencent,input_cost_per_token,0.111,manual_seed,"¥0.8/M ÷ 7.20 FX | https://cloud.tencent.com/document/product/1729/97731"
+2026-05-07,hunyuan-turbos,tencent,output_cost_per_token,0.278,manual_seed,"¥2.0/M ÷ 7.20 FX"
+2026-05-07,hunyuan-t1,tencent,input_cost_per_token,0.139,manual_seed,"¥1.0/M ÷ 7.20 FX (reasoning model)"
+2026-05-07,hunyuan-t1,tencent,output_cost_per_token,0.556,manual_seed,"¥4.0/M ÷ 7.20 FX"
+2026-05-07,hunyuan-2-instruct-32k,tencent,input_cost_per_token,0.442,manual_seed,"¥3.18/M ÷ 7.20 FX (0-32k context tier)"
+2026-05-07,hunyuan-2-instruct-32k,tencent,output_cost_per_token,1.104,manual_seed,"¥7.95/M ÷ 7.20 FX"
+2026-05-07,doubao-seed-1.6,bytedance,input_cost_per_token,,manual_seed,"placeholder — Volcengine pricing page is JS-rendered; needs manual fill"
+2026-05-07,doubao-seed-1.6,bytedance,output_cost_per_token,,manual_seed,"placeholder — needs manual fill from console.volcengine.com"
