@@ -1191,3 +1191,8 @@ date,model,provider,field,price_usd_per_mtoken,source,source_ref
 2026-05-18,deepseek/deepseek-v3.2,DeepSeek-AI,cache_creation_input_token_cost,0.028,datalearner,DeepSeek V3.2
 2026-05-18,deepseek/deepseek-v3.2,DeepSeek-AI,input_cost_per_token,0.28,datalearner,DeepSeek V3.2
 2026-05-18,deepseek/deepseek-v3.2,DeepSeek-AI,output_cost_per_token,0.42,datalearner,DeepSeek V3.2
+2026-05-19,zai/glm-4.7,Cerebras Systems,output_cost_per_token,2.75,datalearner,GLM-4.7
+2026-05-19,deepseek/deepseek-v3.2,Fireworks AI,cache_read_input_token_cost,0.28,datalearner,DeepSeek V3.2
+2026-05-19,deepseek/deepseek-v3.2,Fireworks AI,cache_creation_input_token_cost,0.28,datalearner,DeepSeek V3.2
+2026-05-19,deepseek/deepseek-v3.2,Fireworks AI,input_cost_per_token,0.56,datalearner,DeepSeek V3.2
+2026-05-19,deepseek/deepseek-v3.2,Fireworks AI,output_cost_per_token,0.56,datalearner,DeepSeek V3.2
