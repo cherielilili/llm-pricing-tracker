@@ -1398,3 +1398,8 @@ date,model,provider,field,price_usd_per_mtoken,source,source_ref
 2026-06-23,hunyuan-turbos,tencent,output_cost_per_token,1.25,tencent-docs,https://cloud.tencent.com/document/product/1729/97731
 2026-06-23,hunyuan-t1,tencent,input_cost_per_token,0.416667,tencent-docs,https://cloud.tencent.com/document/product/1729/97731
 2026-06-23,hunyuan-t1,tencent,output_cost_per_token,1.25,tencent-docs,https://cloud.tencent.com/document/product/1729/97731
+2026-06-24,zai/glm-4.7,Cerebras Systems,output_cost_per_token,2.75,datalearner,GLM-4.7
+2026-06-24,deepseek/deepseek-v3.2,Fireworks AI,cache_read_input_token_cost,0.28,datalearner,DeepSeek V3.2
+2026-06-24,deepseek/deepseek-v3.2,Fireworks AI,cache_creation_input_token_cost,0.28,datalearner,DeepSeek V3.2
+2026-06-24,deepseek/deepseek-v3.2,Fireworks AI,input_cost_per_token,0.56,datalearner,DeepSeek V3.2
+2026-06-24,deepseek/deepseek-v3.2,Fireworks AI,output_cost_per_token,0.56,datalearner,DeepSeek V3.2
