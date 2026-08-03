@@ -29,6 +29,14 @@ if [[ -f "$TODAY_HTML" ]]; then
   echo "  → index.html updated from $TODAY_HTML"
 fi
 
+# Detect material changes and push Discord alert (sources webhook from ag-worker .env)
+if [[ -f /Users/cherie/projects/Antigravity/ag-worker/load_env.sh ]]; then
+  set +u
+  source /Users/cherie/projects/Antigravity/ag-worker/load_env.sh
+  set -u
+fi
+python3 scripts/detect_changes.py || echo "  → detect_changes.py errored (non-fatal)"
+
 # commit + push if there are changes
 if [[ -n "$(git status --porcelain)" ]]; then
   git add data/history.csv reports/ index.html
