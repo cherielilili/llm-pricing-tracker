@@ -9,6 +9,13 @@ LOG_DATE=$(date +%Y-%m-%d)
 
 echo "[$(date)] LLM Pricing daily run starting…"
 
+# Weekly (Mondays): refresh litellm git-history trend data.
+# Backfill is merge-write/idempotent — safe to rerun.
+if [[ "$(date +%u)" == "1" ]]; then
+  echo "[$(date)] Monday — refreshing litellm weekly snapshots…"
+  python3 scripts/llm_pricing_backfill.py
+fi
+
 python3 scripts/llm_pricing_fetch.py
 python3 scripts/fetch_hunyuan.py
 

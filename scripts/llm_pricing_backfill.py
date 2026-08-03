@@ -136,6 +136,7 @@ def main():
     print(f"[backfill]   {len(weekly)} weekly snapshots to fetch")
 
     rows: list[dict] = []
+    SNAPSHOT_DIR.mkdir(parents=True, exist_ok=True)
     for i, (date_iso, sha, wk) in enumerate(weekly, 1):
         print(f"[backfill] [{i}/{len(weekly)}] {wk} {date_iso} {sha[:8]}")
         try:
@@ -162,13 +163,28 @@ def main():
                 })
         time.sleep(0.4)
 
+    # Merge-write: keep non-litellm-git rows (daily fetch sources) and any
+    # litellm-git rows older than the fresh range; replace the rest.
     DATA_DIR.mkdir(parents=True, exist_ok=True)
+    fields = ["date", "model", "provider", "field",
+              "price_usd_per_mtoken", "source", "source_ref"]
+    cutoff = min((r["date"] for r in rows), default=SINCE_DATE[:10])
+    kept: list[dict] = []
+    if HISTORY_CSV.exists():
+        with HISTORY_CSV.open(newline="") as f:
+            for r in csv.DictReader(f):
+                if r["source"] == "litellm-git" and r["date"] >= cutoff:
+                    continue  # will be replaced by fresh rows
+                kept.append(r)
+    merged = kept + [{k: str(v) for k, v in row.items()} for row in rows]
+    merged.sort(key=lambda r: (r["date"], r["model"], r["field"], r["source"]))
     with HISTORY_CSV.open("w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=["date", "model", "provider", "field",
-                                          "price_usd_per_mtoken", "source", "source_ref"])
+        w = csv.DictWriter(f, fieldnames=fields)
         w.writeheader()
-        w.writerows(rows)
-    print(f"[backfill] wrote {len(rows)} rows → {HISTORY_CSV}")
+        w.writerows(merged)
+    print(f"[backfill] kept {len(kept)} existing rows, "
+          f"wrote {len(rows)} fresh litellm-git rows "
+          f"({len(merged)} total) → {HISTORY_CSV}")
 
 
 if __name__ == "__main__":
