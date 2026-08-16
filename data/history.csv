@@ -2566,30 +2566,110 @@ date,model,provider,field,price_usd_per_mtoken,source,source_ref
 2026-08-09,deepseek/deepseek-v3.2,Fireworks AI,input_cost_per_token,0.56,datalearner,DeepSeek V3.2
 2026-08-09,deepseek/deepseek-v3.2,Fireworks AI,output_cost_per_token,0.56,datalearner,DeepSeek V3.2
 2026-08-09,zai/glm-4.7,Cerebras Systems,output_cost_per_token,2.75,datalearner,GLM-4.7
-2026-08-10,zai/glm-4.7,智谱AI,output_cost_per_token,2.222222,datalearner,GLM-4.7
-2026-08-10,deepseek/deepseek-v3.2,DeepSeek-AI,cache_read_input_token_cost,0.028,datalearner,DeepSeek V3.2
 2026-08-10,deepseek/deepseek-v3.2,DeepSeek-AI,cache_creation_input_token_cost,0.028,datalearner,DeepSeek V3.2
+2026-08-10,deepseek/deepseek-v3.2,DeepSeek-AI,cache_read_input_token_cost,0.028,datalearner,DeepSeek V3.2
 2026-08-10,deepseek/deepseek-v3.2,DeepSeek-AI,input_cost_per_token,0.28,datalearner,DeepSeek V3.2
 2026-08-10,deepseek/deepseek-v3.2,DeepSeek-AI,output_cost_per_token,0.42,datalearner,DeepSeek V3.2
-2026-08-11,zai/glm-4.7,Cerebras Systems,output_cost_per_token,2.75,datalearner,GLM-4.7
-2026-08-11,deepseek/deepseek-v3.2,Fireworks AI,cache_read_input_token_cost,0.28,datalearner,DeepSeek V3.2
+2026-08-10,zai/glm-4.7,智谱AI,output_cost_per_token,2.222222,datalearner,GLM-4.7
 2026-08-11,deepseek/deepseek-v3.2,Fireworks AI,cache_creation_input_token_cost,0.28,datalearner,DeepSeek V3.2
+2026-08-11,deepseek/deepseek-v3.2,Fireworks AI,cache_read_input_token_cost,0.28,datalearner,DeepSeek V3.2
 2026-08-11,deepseek/deepseek-v3.2,Fireworks AI,input_cost_per_token,0.56,datalearner,DeepSeek V3.2
 2026-08-11,deepseek/deepseek-v3.2,Fireworks AI,output_cost_per_token,0.56,datalearner,DeepSeek V3.2
-2026-08-12,zai/glm-4.7,智谱AI,output_cost_per_token,2.222222,datalearner,GLM-4.7
-2026-08-12,deepseek/deepseek-v3.2,DeepSeek-AI,cache_read_input_token_cost,0.028,datalearner,DeepSeek V3.2
+2026-08-11,zai/glm-4.7,Cerebras Systems,output_cost_per_token,2.75,datalearner,GLM-4.7
 2026-08-12,deepseek/deepseek-v3.2,DeepSeek-AI,cache_creation_input_token_cost,0.028,datalearner,DeepSeek V3.2
+2026-08-12,deepseek/deepseek-v3.2,DeepSeek-AI,cache_read_input_token_cost,0.028,datalearner,DeepSeek V3.2
 2026-08-12,deepseek/deepseek-v3.2,DeepSeek-AI,input_cost_per_token,0.28,datalearner,DeepSeek V3.2
 2026-08-12,deepseek/deepseek-v3.2,DeepSeek-AI,output_cost_per_token,0.42,datalearner,DeepSeek V3.2
+2026-08-12,zai/glm-4.7,智谱AI,output_cost_per_token,2.222222,datalearner,GLM-4.7
+2026-08-14,deepseek/deepseek-v3.2,Fireworks AI,cache_creation_input_token_cost,0.28,datalearner,DeepSeek V3.2
+2026-08-14,deepseek/deepseek-v3.2,Fireworks AI,cache_read_input_token_cost,0.28,datalearner,DeepSeek V3.2
+2026-08-14,deepseek/deepseek-v3.2,Fireworks AI,input_cost_per_token,0.56,datalearner,DeepSeek V3.2
+2026-08-14,deepseek/deepseek-v3.2,Fireworks AI,output_cost_per_token,0.56,datalearner,DeepSeek V3.2
 2026-08-14,moonshot/kimi-k2.6,moonshotai,input_cost_per_token,0.5605,openrouter,moonshotai/kimi-k2.6
 2026-08-14,moonshot/kimi-k2.6,moonshotai,output_cost_per_token,2.36,openrouter,moonshotai/kimi-k2.6
 2026-08-14,zai/glm-4.7,Cerebras Systems,output_cost_per_token,2.75,datalearner,GLM-4.7
-2026-08-14,deepseek/deepseek-v3.2,Fireworks AI,cache_read_input_token_cost,0.28,datalearner,DeepSeek V3.2
-2026-08-14,deepseek/deepseek-v3.2,Fireworks AI,cache_creation_input_token_cost,0.28,datalearner,DeepSeek V3.2
-2026-08-14,deepseek/deepseek-v3.2,Fireworks AI,input_cost_per_token,0.56,datalearner,DeepSeek V3.2
-2026-08-14,deepseek/deepseek-v3.2,Fireworks AI,output_cost_per_token,0.56,datalearner,DeepSeek V3.2
-2026-08-15,zai/glm-4.7,智谱AI,output_cost_per_token,2.222222,datalearner,GLM-4.7
-2026-08-15,deepseek/deepseek-v3.2,DeepSeek-AI,cache_read_input_token_cost,0.028,datalearner,DeepSeek V3.2
+2026-08-15,claude-haiku-4-5-20251001,anthropic,cache_creation_input_token_cost,1.25,litellm-git,0059b497
+2026-08-15,claude-haiku-4-5-20251001,anthropic,cache_read_input_token_cost,0.1,litellm-git,0059b497
+2026-08-15,claude-haiku-4-5-20251001,anthropic,input_cost_per_token,1.0,litellm-git,0059b497
+2026-08-15,claude-haiku-4-5-20251001,anthropic,output_cost_per_token,5.0,litellm-git,0059b497
+2026-08-15,claude-opus-4-7,anthropic,cache_creation_input_token_cost,6.25,litellm-git,0059b497
+2026-08-15,claude-opus-4-7,anthropic,cache_read_input_token_cost,0.5,litellm-git,0059b497
+2026-08-15,claude-opus-4-7,anthropic,input_cost_per_token,5.0,litellm-git,0059b497
+2026-08-15,claude-opus-4-7,anthropic,output_cost_per_token,25.0,litellm-git,0059b497
+2026-08-15,claude-sonnet-4-6,anthropic,cache_creation_input_token_cost,3.75,litellm-git,0059b497
+2026-08-15,claude-sonnet-4-6,anthropic,cache_read_input_token_cost,0.3,litellm-git,0059b497
+2026-08-15,claude-sonnet-4-6,anthropic,input_cost_per_token,3.0,litellm-git,0059b497
+2026-08-15,claude-sonnet-4-6,anthropic,output_cost_per_token,15.0,litellm-git,0059b497
+2026-08-15,dashscope/qwen-max,dashscope,input_cost_per_token,1.6,litellm-git,0059b497
+2026-08-15,dashscope/qwen-max,dashscope,output_cost_per_token,6.4,litellm-git,0059b497
+2026-08-15,deepseek-chat,deepseek,cache_read_input_token_cost,0.028,litellm-git,0059b497
+2026-08-15,deepseek-chat,deepseek,input_cost_per_token,0.28,litellm-git,0059b497
+2026-08-15,deepseek-chat,deepseek,output_cost_per_token,0.42,litellm-git,0059b497
 2026-08-15,deepseek/deepseek-v3.2,DeepSeek-AI,cache_creation_input_token_cost,0.028,datalearner,DeepSeek V3.2
+2026-08-15,deepseek/deepseek-v3.2,DeepSeek-AI,cache_read_input_token_cost,0.028,datalearner,DeepSeek V3.2
 2026-08-15,deepseek/deepseek-v3.2,DeepSeek-AI,input_cost_per_token,0.28,datalearner,DeepSeek V3.2
+2026-08-15,deepseek/deepseek-v3.2,deepseek,input_cost_per_token,0.28,litellm-git,0059b497
 2026-08-15,deepseek/deepseek-v3.2,DeepSeek-AI,output_cost_per_token,0.42,datalearner,DeepSeek V3.2
+2026-08-15,deepseek/deepseek-v3.2,deepseek,output_cost_per_token,0.4,litellm-git,0059b497
+2026-08-15,gemini-2.5-flash,vertex_ai-language-models,cache_read_input_token_cost,0.03,litellm-git,0059b497
+2026-08-15,gemini-2.5-flash,vertex_ai-language-models,input_cost_per_token,0.3,litellm-git,0059b497
+2026-08-15,gemini-2.5-flash,vertex_ai-language-models,output_cost_per_token,2.5,litellm-git,0059b497
+2026-08-15,gemini-2.5-pro,vertex_ai-language-models,cache_read_input_token_cost,0.125,litellm-git,0059b497
+2026-08-15,gemini-2.5-pro,vertex_ai-language-models,input_cost_per_token,1.25,litellm-git,0059b497
+2026-08-15,gemini-2.5-pro,vertex_ai-language-models,output_cost_per_token,10.0,litellm-git,0059b497
+2026-08-15,gemini-3.1-flash-lite-preview,vertex_ai-language-models,cache_read_input_token_cost,0.025,litellm-git,0059b497
+2026-08-15,gemini-3.1-flash-lite-preview,vertex_ai-language-models,input_cost_per_token,0.25,litellm-git,0059b497
+2026-08-15,gemini-3.1-flash-lite-preview,vertex_ai-language-models,output_cost_per_token,1.5,litellm-git,0059b497
+2026-08-15,gpt-4o,openai,cache_read_input_token_cost,1.25,litellm-git,0059b497
+2026-08-15,gpt-4o,openai,input_cost_per_token,2.5,litellm-git,0059b497
+2026-08-15,gpt-4o,openai,input_cost_per_token_batches,1.25,litellm-git,0059b497
+2026-08-15,gpt-4o,openai,output_cost_per_token,10.0,litellm-git,0059b497
+2026-08-15,gpt-4o,openai,output_cost_per_token_batches,5.0,litellm-git,0059b497
+2026-08-15,gpt-5,openai,cache_read_input_token_cost,0.125,litellm-git,0059b497
+2026-08-15,gpt-5,openai,input_cost_per_token,1.25,litellm-git,0059b497
+2026-08-15,gpt-5,openai,output_cost_per_token,10.0,litellm-git,0059b497
+2026-08-15,gpt-5.5,openai,cache_read_input_token_cost,0.5,litellm-git,0059b497
+2026-08-15,gpt-5.5,openai,input_cost_per_token,5.0,litellm-git,0059b497
+2026-08-15,gpt-5.5,openai,input_cost_per_token_batches,2.5,litellm-git,0059b497
+2026-08-15,gpt-5.5,openai,output_cost_per_token,30.0,litellm-git,0059b497
+2026-08-15,gpt-5.5,openai,output_cost_per_token_batches,15.0,litellm-git,0059b497
+2026-08-15,gpt-5.5-pro,openai,cache_read_input_token_cost,3.0,litellm-git,0059b497
+2026-08-15,gpt-5.5-pro,openai,input_cost_per_token,30.0,litellm-git,0059b497
+2026-08-15,gpt-5.5-pro,openai,input_cost_per_token_batches,15.0,litellm-git,0059b497
+2026-08-15,gpt-5.5-pro,openai,output_cost_per_token,180.0,litellm-git,0059b497
+2026-08-15,gpt-5.5-pro,openai,output_cost_per_token_batches,90.0,litellm-git,0059b497
+2026-08-15,minimax/MiniMax-M2.5,minimax,cache_creation_input_token_cost,0.375,litellm-git,0059b497
+2026-08-15,minimax/MiniMax-M2.5,minimax,cache_read_input_token_cost,0.03,litellm-git,0059b497
+2026-08-15,minimax/MiniMax-M2.5,minimax,input_cost_per_token,0.3,litellm-git,0059b497
+2026-08-15,minimax/MiniMax-M2.5,minimax,output_cost_per_token,1.2,litellm-git,0059b497
+2026-08-15,mistral/mistral-large-latest,mistral,input_cost_per_token,0.5,litellm-git,0059b497
+2026-08-15,mistral/mistral-large-latest,mistral,output_cost_per_token,1.5,litellm-git,0059b497
+2026-08-15,moonshot/kimi-k2.5,moonshot,cache_read_input_token_cost,0.1,litellm-git,0059b497
+2026-08-15,moonshot/kimi-k2.5,moonshot,input_cost_per_token,0.6,litellm-git,0059b497
+2026-08-15,moonshot/kimi-k2.5,moonshot,output_cost_per_token,3.0,litellm-git,0059b497
+2026-08-15,moonshot/kimi-k2.6,moonshot,cache_read_input_token_cost,0.16,litellm-git,0059b497
+2026-08-15,moonshot/kimi-k2.6,moonshot,input_cost_per_token,0.95,litellm-git,0059b497
+2026-08-15,moonshot/kimi-k2.6,moonshot,output_cost_per_token,4.0,litellm-git,0059b497
+2026-08-15,o1,openai,cache_read_input_token_cost,7.5,litellm-git,0059b497
+2026-08-15,o1,openai,input_cost_per_token,15.0,litellm-git,0059b497
+2026-08-15,o1,openai,output_cost_per_token,60.0,litellm-git,0059b497
+2026-08-15,xai/grok-4,xai,input_cost_per_token,3.0,litellm-git,0059b497
+2026-08-15,xai/grok-4,xai,output_cost_per_token,15.0,litellm-git,0059b497
+2026-08-15,zai/glm-4.7,zai,cache_creation_input_token_cost,0.0,litellm-git,0059b497
+2026-08-15,zai/glm-4.7,zai,cache_read_input_token_cost,0.11,litellm-git,0059b497
+2026-08-15,zai/glm-4.7,zai,input_cost_per_token,0.6,litellm-git,0059b497
+2026-08-15,zai/glm-4.7,智谱AI,output_cost_per_token,2.222222,datalearner,GLM-4.7
+2026-08-15,zai/glm-4.7,zai,output_cost_per_token,2.2,litellm-git,0059b497
+2026-08-15,zai/glm-5,zai,cache_creation_input_token_cost,0.0,litellm-git,0059b497
+2026-08-15,zai/glm-5,zai,cache_read_input_token_cost,0.2,litellm-git,0059b497
+2026-08-15,zai/glm-5,zai,input_cost_per_token,1.0,litellm-git,0059b497
+2026-08-15,zai/glm-5,zai,output_cost_per_token,3.2,litellm-git,0059b497
+2026-08-17,moonshot/kimi-k2.6,moonshotai,input_cost_per_token,0.5415,openrouter,moonshotai/kimi-k2.6
+2026-08-17,moonshot/kimi-k2.6,moonshotai,output_cost_per_token,2.28,openrouter,moonshotai/kimi-k2.6
+2026-08-17,zai/glm-5,z-ai,input_cost_per_token,0.6,openrouter,z-ai/glm-5
+2026-08-17,zai/glm-5,z-ai,output_cost_per_token,1.92,openrouter,z-ai/glm-5
+2026-08-17,zai/glm-4.7,Cerebras Systems,output_cost_per_token,2.75,datalearner,GLM-4.7
+2026-08-17,deepseek/deepseek-v3.2,Fireworks AI,cache_read_input_token_cost,0.28,datalearner,DeepSeek V3.2
+2026-08-17,deepseek/deepseek-v3.2,Fireworks AI,cache_creation_input_token_cost,0.28,datalearner,DeepSeek V3.2
+2026-08-17,deepseek/deepseek-v3.2,Fireworks AI,input_cost_per_token,0.56,datalearner,DeepSeek V3.2
+2026-08-17,deepseek/deepseek-v3.2,Fireworks AI,output_cost_per_token,0.56,datalearner,DeepSeek V3.2
