@@ -2803,3 +2803,5 @@ date,model,provider,field,price_usd_per_mtoken,source,source_ref
 2026-08-27,moonshot/kimi-k2.5,moonshotai,output_cost_per_token,2.25,openrouter,moonshotai/kimi-k2.5
 2026-08-28,moonshot/kimi-k2.5,moonshotai,input_cost_per_token,0.6,openrouter,moonshotai/kimi-k2.5
 2026-08-28,moonshot/kimi-k2.5,moonshotai,output_cost_per_token,3.0,openrouter,moonshotai/kimi-k2.5
+2026-08-29,deepseek/deepseek-v3.2,deepseek,input_cost_per_token,0.269,openrouter,deepseek/deepseek-v3.2
+2026-08-29,deepseek/deepseek-v3.2,deepseek,output_cost_per_token,0.4,openrouter,deepseek/deepseek-v3.2
