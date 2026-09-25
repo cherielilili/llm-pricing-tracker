@@ -3111,3 +3111,5 @@ date,model,provider,field,price_usd_per_mtoken,source,source_ref
 2026-09-20,zai/glm-5,zai,cache_read_input_token_cost,0.2,litellm-git,9e84b8b0
 2026-09-20,zai/glm-5,zai,input_cost_per_token,1.0,litellm-git,9e84b8b0
 2026-09-20,zai/glm-5,zai,output_cost_per_token,3.2,litellm-git,9e84b8b0
+2026-09-26,zai/glm-4.7,z-ai,input_cost_per_token,0.6,openrouter,z-ai/glm-4.7
+2026-09-26,zai/glm-4.7,z-ai,output_cost_per_token,2.2,openrouter,z-ai/glm-4.7
