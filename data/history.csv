@@ -3291,3 +3291,4 @@ date,model,provider,field,price_usd_per_mtoken,source,source_ref
 2026-10-04,zai/glm-5,zai,cache_read_input_token_cost,0.2,litellm-git,a66adb4f
 2026-10-04,zai/glm-5,zai,input_cost_per_token,1.0,litellm-git,a66adb4f
 2026-10-04,zai/glm-5,zai,output_cost_per_token,3.2,litellm-git,a66adb4f
+2026-10-06,deepseek/deepseek-v3.2,deepseek,input_cost_per_token,0.259,openrouter,deepseek/deepseek-v3.2
