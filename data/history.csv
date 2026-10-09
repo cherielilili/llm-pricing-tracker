@@ -3297,3 +3297,5 @@ date,model,provider,field,price_usd_per_mtoken,source,source_ref
 2026-10-08,moonshot/kimi-k2.6,moonshotai,input_cost_per_token,0.465,openrouter,moonshotai/kimi-k2.6
 2026-10-08,moonshot/kimi-k2.6,moonshotai,output_cost_per_token,2.45,openrouter,moonshotai/kimi-k2.6
 2026-10-09,moonshot/kimi-k2.6,moonshotai,input_cost_per_token,0.4344,openrouter,moonshotai/kimi-k2.6
+2026-10-10,deepseek-chat,deepseek,input_cost_per_token,0.32,openrouter,deepseek/deepseek-chat
+2026-10-10,deepseek-chat,deepseek,output_cost_per_token,0.89,openrouter,deepseek/deepseek-chat
