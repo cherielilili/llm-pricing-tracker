@@ -3397,3 +3397,5 @@ date,model,provider,field,price_usd_per_mtoken,source,source_ref
 2026-10-20,zai/glm-4.7,z-ai,output_cost_per_token,1.98,openrouter,z-ai/glm-4.7
 2026-10-21,deepseek-chat,deepseek,input_cost_per_token,0.2574,openrouter,deepseek/deepseek-chat
 2026-10-21,deepseek-chat,deepseek,output_cost_per_token,1.0287,openrouter,deepseek/deepseek-chat
+2026-10-27,minimax/MiniMax-M2.5,minimax,input_cost_per_token,0.3,openrouter,minimax/minimax-m2.5
+2026-10-27,minimax/MiniMax-M2.5,minimax,output_cost_per_token,1.2,openrouter,minimax/minimax-m2.5
